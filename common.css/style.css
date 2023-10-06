@@ -138,7 +138,7 @@
     filter: grayscale(.6) sepia(.5);
     border-radius: 20px;
 }
-/* ----------------------------es 10 ------------------------- */
+/* ----------------------------es 9 ------------------------- */
 
 .ex-9-img{
     transition: 3s;
@@ -147,4 +147,20 @@
     border-radius: 30px;
     filter: blur(5px);
     filter: hue-rotate(90deg);
+}
+/* ----------------------------es 10 ------------------------- */
+.ex-10-icon{
+    animation-name: ruota;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ruota {
+    from { 
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
