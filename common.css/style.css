@@ -10,14 +10,59 @@
 .ex-1-square:hover {
     background: red;
 }
-
+/* ---------------es 1 ------------------- */
 .ex-2-square {
     transition: 5s;
 }
 .ex-2-square:active{
-    
-    height: 800px;
+    height: 1800px;
     width: 800px;
+    animation: ex2;
+    animation-duration: 4s;
+}
+@keyframes ex2 {
+    0%{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }    
+    50%{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
+/* -----------------es 2 --------------------- */
+  .ex-3-square:hover{
+    width: 50px;
+    background-color: blueviolet;
+    height: 50px;
+    border-radius: 50%;
+    animation: ex3;
+    animation-duration: 4s;
+}  
+
+@keyframes ex3 {
+    0%{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }    
+    50%{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
 }
 
-
+/* -----------------------es 3---------------- */
