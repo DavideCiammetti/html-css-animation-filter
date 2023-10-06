@@ -129,3 +129,12 @@
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+/* -------------------ES 8--------------------------------- */
+
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 20px;
+}
