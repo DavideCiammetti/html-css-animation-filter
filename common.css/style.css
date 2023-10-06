@@ -164,3 +164,23 @@
         transform:rotate(360deg);
     }
 }
+
+/* --------------------------es 11---------------------------- */
+
+.ex-11-icon{
+    animation-name: ruota;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+}
+
+@keyframes ruota {
+    0% { 
+        transform:rotate(0deg);
+    }
+    50% {
+        transform:rotate(290deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
