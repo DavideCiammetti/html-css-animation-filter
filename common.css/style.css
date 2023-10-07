@@ -194,12 +194,10 @@
     width: 70px;
     height: 70px;
     background-color: rgb(234, 0, 255);
-    animation-name: ex13;
+    animation-name: ex12;
     animation-duration: 4s;
-    text-align: center;
 }
-
-@keyframes ex13 {
+@keyframes ex12 {
     0%{
         background-color: rgb(143, 55, 225);
         width: 80px;
@@ -222,3 +220,25 @@
     }
 }
 /* -------------------------------------es 13------------------------------------ */
+
+.well .ex-13-button{
+    background-color: cadetblue;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: red;
+    text-align: center;
+    animation-name: ex13;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ex13{
+    from { 
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
