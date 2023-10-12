@@ -45,3 +45,11 @@
    filter: grayscale(100%);
 }
 /* fine es 6*/
+
+/* es 7*/
+.ex-7-img:hover{
+    transition: 4s;
+    filter: grayscale(100%);
+    filter: contrast(20%);
+ }
+ /* fine es 7*/
