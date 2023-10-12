@@ -14,3 +14,9 @@
     width: 100%;
 }
 /* fine es 2 */
+/* es 3 */
+.ex-3-square:hover{
+    transition: 3s;
+    border-radius: 100%;
+}
+/* fine es 3 */
