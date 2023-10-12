@@ -70,3 +70,21 @@
     filter: contrast(150%);
  }
  /* fine es 9*/
+
+   /* es 10*/
+.ex-10-icon {
+    animation-name: giro;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+ }
+ @keyframes giro {
+   0% { 
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+ /* fine es 10*/
+
