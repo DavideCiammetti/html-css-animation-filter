@@ -61,3 +61,12 @@
     filter: contrast(150%);
  }
  /* fine es 8*/
+
+  /* es 9*/
+.ex-9-img:hover{
+    transform: scale(0.7);
+    border-radius: 20px;
+    filter: brightness(50%);
+    filter: contrast(150%);
+ }
+ /* fine es 9*/
