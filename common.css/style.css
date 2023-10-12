@@ -9,5 +9,8 @@
 }
 /* fine es 1 */
 /* es 2 */
-
+.ex-2-square:active{
+    transition: 3s;
+    width: 100%;
+}
 /* fine es 2 */
