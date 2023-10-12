@@ -39,3 +39,9 @@
     height: 30px;
 }
 /* fine es 5 */
+
+/* es 6*/
+.ex-6-img:hover{
+   filter: grayscale(100%);
+}
+/* fine es 6*/
