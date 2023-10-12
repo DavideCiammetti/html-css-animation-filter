@@ -20,3 +20,9 @@
     border-radius: 100%;
 }
 /* fine es 3 */
+/* es 4 */
+.ex-4-square:hover{
+    transition: 4s;
+    opacity: 0;
+}
+/* fine es 4 */
