@@ -53,3 +53,11 @@
     filter: contrast(20%);
  }
  /* fine es 7*/
+
+ /* es 8*/
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: brightness(50%);
+    filter: contrast(150%);
+ }
+ /* fine es 8*/
