@@ -26,3 +26,16 @@
     opacity: 0;
 }
 /* fine es 4 */
+
+/* es 5 */
+.ex-5-square:hover{
+    transition: 4s;
+    width: 200px;
+    height: 200px;
+}
+.ex-5-square:active{
+    transition: 4s;
+    width: 30px;
+    height: 30px;
+}
+/* fine es 5 */
